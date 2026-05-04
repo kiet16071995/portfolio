@@ -4,9 +4,11 @@ export const PersonalInfo: AboutMeData = {
   name: "BÙI TUẤN KIỆT",
   role: "YOUR_ROLE",
   introduction: "Aspiring game developer with a passion for creating interactive experiences. I specialize in developing games using Unity",
-  description: "Hey, I'm Kiet! I've been gaming my whole life, and making games has always been my dream. Recently, I decided to go all in—took some Udemy and Youtube courses, started practicing, and committed to making it happen.\n
-My goal is to create games me and my friends love, wacky survival games, fun idle games for mobile, and even a side-scrolling MMORPG\n
-Right now, I’m looking to join a company where I can sharpen my skills, learn from others, and build some awesome games.",
+  description: `Hey, I'm Kiet! I've been gaming my whole life, and making games has always been my dream. Recently, I decided to go all in—took some Udemy and Youtube courses, started practicing, and committed to making it happen.
+
+My goal is to create games me and my friends love, wacky survival games, fun idle games for mobile, and even a side-scrolling MMORPG.
+
+Right now, I’m looking to join a company where I can sharpen my skills, learn from others, and build some awesome games.`,
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
   links: {
