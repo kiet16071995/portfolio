@@ -1,10 +1,12 @@
 import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform } from "./types";
 
 export const PersonalInfo: AboutMeData = {
-  name: "YOUR_NAME",
+  name: "BÙI TUẤN KIỆT",
   role: "YOUR_ROLE",
-  introduction: "SHORT_INTRODUCTION",
-  description: "TELL_ABOUT_YOURSELF",
+  introduction: "Aspiring game developer with a passion for creating interactive experiences. I specialize in developing games using Unity",
+  description: "Hey, I'm Kiet! I've been gaming my whole life, and making games has always been my dream. Recently, I decided to go all in—took some Udemy and Youtube courses, started practicing, and committed to making it happen.\n
+My goal is to create games me and my friends love, wacky survival games, fun idle games for mobile, and even a side-scrolling MMORPG\n
+Right now, I’m looking to join a company where I can sharpen my skills, learn from others, and build some awesome games.",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
   links: {
@@ -27,7 +29,6 @@ export const games: Game[] = [
     ],
     media: [
       { source: "/images/games/rougelike-btk/Untitled.jpg", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
       { source: "/images/games/rougelike-btk/Untitled1.jpg", type: MediaType.Image },
       { source: "/images/games/rougelike-btk/Untitled2.jpg", type: MediaType.Image },
       { source: "/images/games/rougelike-btk/Untitled4.jpg", type: MediaType.Image },
