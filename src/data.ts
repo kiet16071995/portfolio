@@ -23,7 +23,8 @@ export const games: Game[] = [
     engine: GameEngine.Unity,
     links: [
       { source: LinkImageSource.Github, url: "https://github.com/buituankiet16071995-dotcom/RougelikeBTK" },
-      { source: LinkImageSource.ItchIo, url: "https://kiet16071995.itch.io/rougelike-btk?secret=b340rEih6tz2pY8fqr3swPO1Vo
+      { source: LinkImageSource.ItchIo, url: "https://kiet16071995.itch.io/rougelike-btk?secret=b340rEih6tz2pY8fqr3swPO1Vo" },
+    ],
     media: [
       { source: "/images/games/rougelike-btk/Untitled.jpg", type: MediaType.Image },
       { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
