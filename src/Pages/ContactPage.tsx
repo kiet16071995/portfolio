@@ -58,7 +58,7 @@ const TextArea = styled.textarea`
 const Button = styled.button`
   padding: 10px 20px;
   margin: 20px 0;
-  background-color: #25d366;
+  background-color: #88bff2;
   color: white;
   border: none;
   border-radius: 5px;
@@ -76,7 +76,9 @@ const ContactMe: React.FC = () => {
 
   const handleSubmit = () => {
     const formattedMessage = `Hey my name is ${name}\n${message}`;
-    const url = `https://wa.me/${process.env.REACT_APP_WA_NUMBER}?text=${encodeURIComponent(formattedMessage)}`;
+    navigator.clipboard.writeText(formattedMessage);
+    const phoneNumber = "84947260862";
+    const url = `https://zalo.me/${phoneNumber}`;
     window.open(url, '_blank');
   };
 
@@ -95,7 +97,7 @@ const ContactMe: React.FC = () => {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
-        <Button onClick={handleSubmit}>Send via WhatsApp</Button>
+        <Button onClick={handleSubmit}>Send via Zalo</Button>
       </ContactContainer>
     </CenterContainer>
   );

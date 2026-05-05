@@ -49,4 +49,5 @@ export interface Game {
   media: MediaItem[];
   platforms: Platform[];
   engine: GameEngine;
+  skills: string[];
 }

@@ -78,6 +78,10 @@ const GameInfo: React.FC<GameInfoProps> = ({ game }) => {
                     <InfoKey>Engine:</InfoKey>
                     <InfoValue>{game.engine}</InfoValue>
                 </InfoRow>
+                <InfoRow>
+                    <InfoKey>Skills:</InfoKey>
+                    <InfoValue>{game.skills.join(", ")}</InfoValue>
+                </InfoRow>
 
                 {game.source && <InfoRow>
                     <InfoKey>Source:</InfoKey>
