@@ -10,11 +10,11 @@ My goal is to create games me and my friends love, wacky survival games, fun idl
 
 Right now, I’m looking to join a company where I can sharpen my skills, learn from others, and build some awesome games.`,
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
-  cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
+  cvUri: `${process.env.PUBLIC_URL}/files/BuiTuanKiet_CV.pdf`,
   links: {
-    github: "https://github.com/NAME",
-    itchIO: "https://NAME.itch.io",
-    linkedIn: "https://www.linkedin.com/in/NAME",
+    github: "https://github.com/kiet16071995/RougelikeBTK",
+    itchIO: "https://kiet16071995.itch.io/",
+    linkedIn: "https://www.linkedin.com/",
   }
 };
 
